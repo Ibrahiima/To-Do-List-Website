@@ -1,0 +1,22 @@
+.task-list {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: normal;
+  background-color: #f0f0f0; /* Background color */
+  padding: 10px; /* Padding for inner content */
+  border-radius: 8px; /* Rounded corners */
+
+  animation: slideInLeft 0.5s ease-in-out; /* Slide-in animation */
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

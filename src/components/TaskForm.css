@@ -1,0 +1,40 @@
+.task-form {
+  display: flex;
+  justify-content: center;
+  align-items: normal;
+  margin-bottom: 10px;
+  background-color: #f0f0f0; /* Background color */
+  padding: 10px; /* Padding for inner content */
+  border-radius: 8px; /* Rounded corners */
+  animation: fadeIn 0.5s ease-in-out; /* Fade-in animation */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.task-form input {
+  flex-grow: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.task-form button {
+  background-color: #77dd77;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 15px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.task-form button:hover {
+  background-color: #52b152;
+}
